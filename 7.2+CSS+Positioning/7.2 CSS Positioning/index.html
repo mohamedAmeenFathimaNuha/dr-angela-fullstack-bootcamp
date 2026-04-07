@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Positioning Exercise</title>
+
+  <style>
+    .blue-box{
+      background-color: blue;
+      height: 300px;
+      width: 500px;
+      position: relative;
+      top:200px;        
+      left:200px;
+
+      /* top:50%
+      left:50%   it is lso correct */
+    }
+    .red-circle{
+      background-color: red;
+      height:200px;
+      width: 200px;
+      border-radius: 50%;
+      position:absolute;
+      top:150px;
+      left:250px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="blue-box">
+    <div class="red-circle">
+    </div>
+  </div>
+</body>
+</html>
